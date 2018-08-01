@@ -42,7 +42,7 @@ int main () {
         // ideal balanced
         ib = (float)total_beban/(float)total_input;
         
-        ib = floor(ib);
+        ib = ceil(ib);
         
 
         // output data
@@ -54,7 +54,7 @@ int main () {
         while(i<total_input);
         coba++;
         cout<<"  h#"<<coba<<": "<<ib<<endl;
-        
+
     }
     while(true);
 
